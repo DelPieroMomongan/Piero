@@ -1,0 +1,57 @@
+*{
+  margin : 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  min-height: 8vh;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.nav-links{
+  display: inline;
+  width: 50px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.heading{
+  color: white;
+  position: absolute;
+  top: 46%;
+  width: 100%;
+  text-align: left;
+  letter-spacing: 5px;
+}
+.About{
+  color: white;
+  position: absolute;
+  top: 52%;
+  letter-spacing: 3px;
+}
+.Explore a{
+  color: white;
+  position:absolute;
+  top:65%;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+.About2{
+  background-image: url("https://img1.exportersindia.com/product_images/bc-full/dir_174/5219832/roasted-coffee-beans-1505240331-3319287.jpeg");
+}
